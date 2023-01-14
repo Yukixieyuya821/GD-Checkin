@@ -19,4 +19,5 @@ jobs:
     - uses: actions/checkout@v3
 
     - name: Run
-      run: sudo chmod -R 777 /home/runner/work/_temp/0e74f974-3f36-41a2-8a27-5469c63deba1.sh ${{ secrets.koaSess }} ${{ secrets.koaSessSig }} ${{ secrets.email }}
+      run: |
+          sudo ./checkin ${{ secrets.koaSess }} ${{ secrets.koaSessSig }} ${{ secrets.email }}
