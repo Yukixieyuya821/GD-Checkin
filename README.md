@@ -19,7 +19,7 @@ Glados VPN Checkin
 
 在 [GLaDOS](https://glados.rocks/console/checkin) 的网页上按 F12，如下图~
 
-![image](https://user-images.githubusercontent.com/53206696/212588869-237f0b60-0f4d-4af3-83e8-f8b03ccae84f.png)
+![image](https://user-images.githubusercontent.com/53206696/212589322-9c374fbe-1aff-4598-9743-e3703bc1538b.png)
 
 ### 3 设置 身份信息
 
