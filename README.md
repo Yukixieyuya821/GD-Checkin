@@ -17,13 +17,19 @@ Glados VPN Checkin
 
 ### 2 获取 身份信息
 
-在 [GLaDOS](https://glados.rocks/console/checkin) 的网页上按 F12，如下图~
+在 [GLaDOS](https://glados.rocks/console/checkin) 的网页上按 F12，拿到koa:sess.sig与koa:sess的值, 如下图~
 
 ![image](https://user-images.githubusercontent.com/53206696/212589322-9c374fbe-1aff-4598-9743-e3703bc1538b.png)
 
 ### 3 设置 身份信息
 
-拿到koa:sess.sig与koa:sess的值， 在github 设置中， 如下图
+在github 设置中， 如下图
+
+EMAIL： 为签到成功后会通知的邮件地址
+
+KOASESS: 获取到的koa:sess的值
+
+KOASESSSIG: 获取到的koa:sess.sig的值 
 
 ![image](https://user-images.githubusercontent.com/53206696/212588583-0ba7d00a-4b06-4b59-9a2a-6ba7605acbf1.png)
 
