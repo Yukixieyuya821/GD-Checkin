@@ -15,6 +15,11 @@ jobs:
 
   Yuki-Glados-Checkin:
     runs-on: windows-latest
+    env:
+      EMAIL_ACCOUNT: ${{ secrets.EMAIL_ACCOUNT }}
+      EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
+      EMAIL_HOST: ${{ secrets.EMAIL_HOST }}
+      EMAIL_PORT: ${{ secrets.EMAIL_PORT }}
     steps:
     - uses: actions/checkout@v3
 
